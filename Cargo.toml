@@ -1,0 +1,18 @@
+[package]
+name = "fan2jian"
+version = "0.1.0"
+authors = ["jannes <jannes.dev@posteo.net>"]
+edition = "2018"
+
+[lib]
+name = "fan2jian"
+path = "src/lib.rs"
+
+[[bin]]
+name = "fan2jian"
+path = "src/bin.rs"
+
+[dependencies]
+pico-args = "0.4"
+jieba-rs = "0.6"
+unicode-segmentation = "1.7"
